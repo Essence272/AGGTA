@@ -31,12 +31,12 @@ macOS: brew install graphviz
 Windows: Download the Graphviz installation package and add the installation path (e.g., C:\Program Files\Graphviz\bin) to the system PATH.
 
 Run: 
-# Method 1: Run the compiled Main.class directly
+ Method 1: Run the compiled Main.class directly
 java -cp ".:lib/*" Main 
-# Method 2: Recompile (run Main.java) 
+ Method 2: Recompile (run Main.java) 
 javac -cp ".:lib/*" Main.java 
 java -cp ".:lib/*" Main 
-# Windows users replace ':' with ';'：
+ Windows users replace ':' with ';'：
 java -cp ".;lib\*" Main
 
 
